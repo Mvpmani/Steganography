@@ -277,7 +277,7 @@ elif(ch==2):
         new=merge(extract1)
         re = decryption(new,key1)
         end = datetime.now()
-        f=open("yasin.txt","w")
+        f=open("mani.txt","w")
         f.write(re)
         f.close()
         #print(len(re), len(s))
